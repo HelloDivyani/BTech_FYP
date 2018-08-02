@@ -15,6 +15,11 @@
 *Neo4j Software Official Website
 
 
+#Ideas to Work On :
+* Bitcoin and blockchain in neo4j
+
+
+
 
 
 #Team Members : 
