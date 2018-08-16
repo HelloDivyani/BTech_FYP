@@ -23,6 +23,23 @@
 # Ideas to Work On :
 * Bitcoin and blockchain in neo4j
 * Social network twitter pdf
+* Could use linkedin data
+* SEntiment  analysis of twitter content and connect with neo4j to find influentiar 
+
+# Task
+* Neo4j Document Installation on neo4j
+* Calculate authenicity and spped of reaction using dumpy twitter data
+* INtegrate twitter like application with neo4j
+* Learn to deploy neo4j on heroku
+
+
+
+
+
+
+
+
+
 
 
 
