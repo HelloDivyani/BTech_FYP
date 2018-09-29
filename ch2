@@ -217,3 +217,7 @@ Network and IT operation
 The size and complexity of your network and IT infrastructure require a configuration management database 
 (CMDB) more powerful than anything relational databases have to offer. Using Neo4j, you can correlate your network, 
 data center and IT assets to help with troubleshooting, impact analysis and capacity or outage planning.
+
+
+3.1 Study of Social Network Using Neo4j 
+
