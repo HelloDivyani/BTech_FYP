@@ -165,4 +165,5 @@ RETURN p.name
  SQL not only suffers from performance issues due to the JOIN complexity 
  but will also degrade in performance as the dataset grows.
 
-2.5 Use Case  : 
+2.5 Common  Use Case  : 
+Social Networks – People and the relationships between them are perfectly suited to graph databases.
