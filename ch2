@@ -105,7 +105,7 @@ Initial development of Neo4j began in 2003, but it has been publicly available s
 Some of the following particular features make Neo4j very popular among developers, architects, and DBAs:
 
     #Cypher, a declarative query language similar to SQL, but optimized for graphs.
-           Now used by other databases like SAP HANA Graph and Redis graph via the openCypher project.
+         
      #Constant time traversals in big graphs for both depth and breadth due to efficient representation of nodes and relationships.
               Enables scale-up to billions of nodes on moderate hardware.
     
@@ -115,8 +115,10 @@ Some of the following particular features make Neo4j very popular among develope
 
 Why Neo4j ?
 1.Neo4j’s First Mover Advantage is Connecting Everyone to Graphs
-2.Biggest and Most Active Graph Community 
+2.Biggest and Most Active Graph Community .
 3.Highly Performant Read and Write Scalability, Without Compromise
 4.Easy to Learn
 	  -Mature UI with intuitive interaction and built-in learning
    -A wealth of training materials bringing years of deployment experience to your desktop
+5. Easy to use  .
+6. Easier than Ever to Load Your Data into Neo4j .
