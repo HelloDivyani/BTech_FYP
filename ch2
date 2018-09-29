@@ -134,4 +134,33 @@ relationships have quantitative properties, such as weights, costs, distances, r
 
 // property -model image
 
-2.4 Cypher Execution : 
+2.4 Cypher :Querying data from Neo4j
+Cypher is a relatively simple but still very powerful language. 
+Very complicated database queries can easily be expressed through Cypher. 
+This allows you to focus on your domain instead of getting lost in database access. 
+Our guiding goal is to make the simple things easy, and the complex things possible.
+Cypher focuses on the clarity of expressing what to retrieve from a graph, not on how to retrieve it. 
+
+Neo4j is linguistically efficient than SQL.
+Example-
+SQL statement:
+
+SELECT name FROM Person
+LEFT JOIN Person_Department
+	  ON Person.Id = Person_Department.PersonId
+LEFT JOIN Department
+	  ON Department.Id = Person_Department.DepartmentId
+WHERE Department.name = "IT Department"
+
+
+Cypher statement:
+
+MATCH (p:Person)<-[:EMPLOYEE]-(d:Department)
+WHERE d.name = "IT Department"
+RETURN p.name
+
+
+ Cypher query is half the length of the SQL statement and significantly simpler.
+ Not only would this Cypher query be faster to create and run, but it also reduces chances for error.
+ SQL not only suffers from performance issues due to the JOIN complexity 
+ but will also degrade in performance as the dataset grows.
