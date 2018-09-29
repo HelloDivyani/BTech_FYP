@@ -113,7 +113,7 @@ Some of the following particular features make Neo4j very popular among develope
     
     # Drivers for popular programming languages, including Java, JavaScript, .NET, Python, and many more.
 
-Why Neo4j ?
+2.2 Why Neo4j ?
 1.Neo4j’s First Mover Advantage is Connecting Everyone to Graphs
 2.Biggest and Most Active Graph Community .
 3.Highly Performant Read and Write Scalability, Without Compromise
@@ -122,3 +122,6 @@ Why Neo4j ?
    -A wealth of training materials bringing years of deployment experience to your desktop
 5. Easy to use  .
 6. Easier than Ever to Load Your Data into Neo4j .
+
+2.3 Property Graph Model  :
+
