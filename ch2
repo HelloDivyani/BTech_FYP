@@ -3,12 +3,24 @@ A graph is an abstract data type typically used to model data that contains obje
 A graph database is essentially a collection of nodes and edges. 
 Each node represents an entity (such as a person or business) and each edge represents a connection or relationship between two nodes. 
 Every node in a graph database is defined by a unique identifier, a set of outgoing edges and/or incoming edges and a set of properties expressed as key/value pairs.
-Each edge is defined by a unique identifier, a starting-place and/or ending-place node and a set of properties.
+Each edge is defined by a unique identifier, a starting-place and/or ending-place node and a set of properties.Graph database is a nosql database structure.
+//graph database phtoto.
+
+
+
+
+
+
+Graph NOQL vs RElational 
+
+//comparision noql types photo
+
+
 These properties correspond to the columns in a relational database.
 Edges are use to describe the relationships between the objects contained in the database, 
 and in most they can be compared to the foreign key column of a row in a RDBMS.
 
-Graph database is a nosql database structure.
+
 
 SQL VS NOSQL  
 SQL databases use structured query language (SQL) for defining and manipulating data.
