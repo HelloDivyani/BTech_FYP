@@ -232,6 +232,9 @@ By analyzing and mining social networks, we can gather information on the
 comments people make with respect to a particular product.
 Analysis of such comments shows its valuable for the design of marketing
 and advertising campaigns.
+ One application is using  network data for user ranking by computing user’s influence 
+ and signifying influence propagation in social networks. 
+
 
 
 3.2 Classification based on Social Network
@@ -270,6 +273,11 @@ and advertising campaigns.
 3.3 Social Influence Analysis 
 Social network influence pertains to the ability of a user to change the feelings, attitudes, or
 behaviors of other users in a network.
+ Social influence is the impression that a person has on others or in other words,
+ certain individuals in a community or network influence other participants to form views on several 
+ subjects and issues.
+ These individuals are called as influencers, who led the foundation of opinions, public knowledge, and attitudes.
+ 
 // Image of influencer
 
 Advantages of social influence analysis-
