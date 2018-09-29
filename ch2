@@ -62,16 +62,27 @@ NoSQL databases are guaranteed to adhere to two of the CAP properties. Such data
     Graph-based — Graph representation of relationships, mostly used by social networks. {Example- Neo4J}
 
 // Neo4j types photo
+example of key value store
+ Key	    Value
+“India”	{“B-25, Sector-58, Noida, India – 201301”
+Document-based store
+{officeName:”3Pillar Noida”, 
+{Street: “B-25, City:”Noida”, State:”UP”, Pincode:”201301”}
+}
+
+
+Column Based store
+// image p1 will be here
+
+Graph Based store
+//image 
 
 
 
 
 
 
-
-1.3.3 SQL VS NoSQL  : 
-
-
+Graph NOQL vs RElational 
 
 //comparision noql types photo
 
