@@ -57,28 +57,23 @@ The system still Works even though it has been divided by a network failure.
 NoSQL databases are guaranteed to adhere to two of the CAP properties. Such databases are of several types.
 
     Key-Value Store — Stores in the form of a hash table {Example- Riak, Amazon S3 (Dynamo), Redis}
+   example-
+    Key	    Value
+    “India”	{“B-25, Sector-58, Noida, India – 201301”
+    
     Document-based Store — Stores objects, mostly JSON, which is web friendly or supports ODM (Object Document Mappings). {Example- CouchDB, MongoDB}
+     
+    {officeName:”3Pillar Noida”, 
+    {Street: “B-25, City:”Noida”, State:”UP”, Pincode:”201301”}
+     }
+     
     Column-based Store — Each storage block contains data from only one column {Example- HBase, Cassandra}
+    //image p1 will be here
+    
     Graph-based — Graph representation of relationships, mostly used by social networks. {Example- Neo4J}
+    //image person-city will be here
 
 // Neo4j types photo
-example of key value store
- Key	    Value
-“India”	{“B-25, Sector-58, Noida, India – 201301”
-Document-based store
-{officeName:”3Pillar Noida”, 
-{Street: “B-25, City:”Noida”, State:”UP”, Pincode:”201301”}
-}
-
-
-Column Based store
-// image p1 will be here
-
-Graph Based store
-//image 
-
-
-
 
 
 
