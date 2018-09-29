@@ -8,9 +8,20 @@ Graph database is a nosql database structure.
 //graph database phtoto.
 
 
+Why Graph Databases?
 
-Why Graph Databases
+We live in a connected world! There are no isolated pieces of information, but rich, connected domains all around us. 
+Only a database that natively embraces relationships is able to store, process, and query connections efficiently.
+While other databases compute relationships at query time through expensive JOIN operations, 
+a graph database stores connections alongside the data in the model.
 
+Accessing nodes and relationships in a native graph database is an efficient, constant-time operation and allows 
+you to quickly traverse millions of connections per second per core.
+
+Independent of the total size of your dataset, graph databases excel at managing highly-connected data and complex queries
+. With only a pattern and a set of starting points, graph databases explore the neighboring data around those initial starting points — collecting and aggregating information from millions of nodes and relationships — and leaving any data outside the search perimeter untouched.
+Graph databases, by design, allow simple and fast retrieval of complex hierarchical structures that are difficult to 
+model in relational systems. 
 
 
 
