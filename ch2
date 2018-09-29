@@ -41,17 +41,18 @@ CAP theorem tries to demonstrate the properties expected by a NoSQL database.
 Most of the databases are designed to achieve two of these properties at the cost of another property.
 
 C — Consistency
-This demonstrates the guarantee on the execution of updates and the availability of the updates as soon as they are acknowledged to the updater. In simpler terms if a database is consistent, updates are available as soon as they are completed, which is not a guarantee in a distributed environment.
+
+When performing an operation you always have to receive the same information, regardless the node that process the order. It means that no matter which node that forms our Database receives an order, everyone must respond to the operation equally and must be transparent to us who effected it. All clients see the same version of data.
 
 A — Availability
-This demonstrates the property of a database where it is capable to serve a request. Most of the SQL databases drop queries if the load/execution times are greater. Availability is expected to be very high and response times are expected to be very low in NoSQL databases by elimination of transactional properties that are present in SQL databases.
+The system provides answers for all requests it receives, even if one or more nodes are down.
 
 P — Partition tolerance
-The property of databases being able to function with failures among nodes due to network issues. For an example a database may contain several nodes (MongoDB nodes) that work together (By a mechanism such as Mapreduce). The property is preserved if the database as a whole can operate even one or more nodes are unreachable in a distributed environment.
+
+The system still Works even though it has been divided by a network failure.
 
 
-1.3.2 TYpes of NoSQL
-NoSQL databases
+1.3.2 Types of NoSQL Databases
 
 NoSQL databases are guaranteed to adhere to two of the CAP properties. Such databases are of several types.
 
@@ -60,8 +61,7 @@ NoSQL databases are guaranteed to adhere to two of the CAP properties. Such data
     Column-based Store — Each storage block contains data from only one column {Example- HBase, Cassandra}
     Graph-based — Graph representation of relationships, mostly used by social networks. {Example- Neo4J}
 
-// Neo4j structures types photo 
-
+// Neo4j types photo
 
 
 
