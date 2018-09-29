@@ -205,3 +205,11 @@ To deliver the most pleasant customer experience, businesses need to analyze lot
 Graph databases help to unify master data, such as information about customers, products, suppliers, and logistics. 
 Neo4j allows you to organize master data and model it in a graph, revealing connections and relationships. 
 Neo4j can provide important insights so that you can make relevant business decisions.
+
+Network and IT operation
+
+Manage and Monitor Your Complex Networks with Real-Time Insight
+
+The size and complexity of your network and IT infrastructure require a configuration management database 
+(CMDB) more powerful than anything relational databases have to offer. Using Neo4j, you can correlate your network, 
+data center and IT assets to help with troubleshooting, impact analysis and capacity or outage planning.
