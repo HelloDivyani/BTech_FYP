@@ -7,3 +7,18 @@ Each edge is defined by a unique identifier, a starting-place and/or ending-plac
 These properties correspond to the columns in a relational database.
 Edges are use to describe the relationships between the objects contained in the database, 
 and in most they can be compared to the foreign key column of a row in a RDBMS.
+
+Graph database is a nosql database structure.
+
+SQL VS NOSQL  
+SQL databases use structured query language (SQL) for defining and manipulating data.
+On one hand, this is extremely powerful: SQL is one of the most versatile and widely-used options available, making it a safe choice and especially great for complex queries. On the other hand, it can be restrictive. SQL requires that you use predefined schemas to determine the structure of your data before you work with it. 
+In addition, all of your data must follow the same structure. 
+
+A NoSQL database, on the other hand, has dynamic schema for unstructured data, and data is stored in many ways: it can be column-oriented, document-oriented, graph-based or organized as a KeyValue store. This flexibility means that:
+
+    You can create documents without having to first define their structure
+    Each document can have its own unique structure
+    The syntax can vary from database to database, and
+    You can add fields as you go.
+
