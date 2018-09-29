@@ -415,5 +415,42 @@ Rumors cause significant social damage. Rumors have received considerable resear
 in the literature on OSNs, in which recent studies have demonstrated their rapid spread in the
 OSN context
 
+3.5Evaluation metrics for social influence
+3.5.1Centrality measures
+Centrality is an important concept in studying social networks. Con-
+ceptually, centrality measures how central an individual is positioned
+in a social network. The commonly used tools are graph theory and
+network analysis.
+	1.Degree centrality
+	Degree centrality  is defined by counting the number of links incident upon a node,
+	namely, the number of edges that a node possesses. For a directed net-
+	work, we usually use to metrics for degree centrality: in-degree, which
+	is a count of the number of edges directed to the node, and out-degree,
+	which is the number of edges that the node directs to others.
+2. Closeness centrality
+Intuitive Definition: The node with the most connections is the most important
+Closeness centrality  is defined as the average distance from one vertex to the other
+vertices in a network. In influence analysis, we can treat it a metric
+of efficiency of each node in terms of spreading information in the net-
+work. The larger the closeness centrality of a node, the better positioned
+the node is in the social network.
+
+3 Betweenness centrality
+Intuitive Definition: The node with the most strategic location is the most important.
+Betweenness centrality measures the times a node acts as a bridge along the short-
+est path of two other nodes. Under the assumption that item transfer
+follows the shortest paths, a node of a high betweenness centrality pos-
+sesses a better influence through the network. The concept of between-
+ness centrality has a wide application in practice, such as biology, social
+networks, transport, and so on.
+
+4. Eigenvector centrality
+Intuitive Definition: The node that has the most information flowing through it is the most important.
+Eigenvector centrality  is a measurement on influence of a given node in a network. Relative
+scores are assigned to all nodes in a network based on an assumption
+that connections to high-scoring nodes contribute more to the score of
+the node than connections to low-scoring nodes.
+
+//Diagram with example
 
 3.6 Influential Analysis on Twitter  :
