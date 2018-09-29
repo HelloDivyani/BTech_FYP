@@ -228,6 +228,11 @@ With the rise of the Internet and technology, online social networks (OSNs) turn
 on which big data content and complex interpersonal ties among actors converge.
 A social network can be represented by a graph, whose nodes can represent the users, and the edges the
 interpersonal ties among them.
+By analyzing and mining social networks, we can gather information on the
+comments people make with respect to a particular product.
+Analysis of such comments shows its valuable for the design of marketing
+and advertising campaigns.
+
 
 3.2 Classification based on Social Network
   On basis of 
@@ -261,3 +266,7 @@ interpersonal ties among them.
 	7.Social networking: It allows users to share ideas, posts, pictures,
 	activities, events, and interests with people in their network,
 	such as Facebook
+
+3.3 Social Influence Analysis 
+Social network influence pertains to the ability of a user to change the feelings, attitudes, or
+behaviors of other users in a network.
