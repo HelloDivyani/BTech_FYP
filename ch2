@@ -291,4 +291,5 @@ Difficulties in social influence analysis-
 2. It is very difficult to decide the major factors for a specific case to social influence modeling.
 3. There is no effective ways to properly integrate various factors for influence measurement
 4. It is hard to characterize the causal relationship of social influence, as well as the uncertainty of social influence.
-Moreover, in a real-world social network, the influential users cannot be determine without having prior knowledge of influential domain and even after achieving results, human intervention is needed to justify those results.
+5. Moreover, in a real-world social network, the influential users cannot be determine without having prior knowledge of influential domain.
+6. Human intervention is needed to justify those results even after achieving results.
