@@ -30,7 +30,7 @@ model in relational systems.
 
 NoSQL means Not Only SQL, is a whole new way of thinking about a database.
 It is an approach to  non-relational data management and database design that’s useful for
- very large sets of distributed data stores where very large scale of unstructured data storing needs.
+ distributed data stores where very large scale of unstructured data storing needs.
  It encompasses a wide range of technologies and architectures.
  
 
