@@ -164,3 +164,5 @@ RETURN p.name
  Not only would this Cypher query be faster to create and run, but it also reduces chances for error.
  SQL not only suffers from performance issues due to the JOIN complexity 
  but will also degrade in performance as the dataset grows.
+
+2.5 Use Case  : 
