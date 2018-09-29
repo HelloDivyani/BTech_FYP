@@ -191,3 +191,9 @@ Privacy and risk compliance
 Neo4j facilitates personal data storage and management: it allows you to track where private information is stored and 
 which systems, applications, and users access it. The graph data model helps visualize personal data and allows for data 
 analysis and pattern detection. Neo4j also comes in handy for financial risk reporting and compliance.
+
+
+Geo Routing – Imagine modeling the classic traveling salesman problem of trying to visit each city on a map exactly once with
+the shortest route.  The data model is a map of cities and the routes between them and is already a graph. 
+Applications like routing inventory, scheduling tours and geospatial analysis are more comprehensible by developers and business owners in Neo4j compared to a relational database.  
+Performance also goes from “minutes to milliseconds” without relying on extra lookups to indices during retrieval.
