@@ -350,6 +350,19 @@ inter-subjectivity, apriori design, reliability, validity, generalizability, rep
 
 
 
+The influence analysis on social network can be perform on either entire network 
+    • Global influence take considers overall action of the whole social network with the goal of finding the most
+    influential users in an entire network.
+ For example, consider a phenomenon that detects influencers users based on the criteria of
+ most number of followers across the whole Twitter network(i.e., global indegree).
+    • Local influence take into account the actions of either a topic or group/community
+    with the goal of finding the most influential user based on the criteria of member with most number of followers
+    who belongs to particular topic or group/community. (local indegree).
+
+
+
+
+
 
 3.5 APPLICATIONS OF  SOCIAL INFLUENCER
 
