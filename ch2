@@ -270,6 +270,15 @@ and advertising campaigns.
 	activities, events, and interests with people in their network,
 	such as Facebook
 
+
+3.3  Social Network Data(SNA) : 
+
+Social network data is evolutionary which  comes with characteristic such as data are unstructured which comes in format like plain text, RDF, JSON, makes it difficult for users to index or load such data in a database, also they are noisy and heterogeneous in nature.
+Converting social network raw data to the precise graph representation is crucial for data analytical framework to make accurate decisions and predictions.
+When appropriately done, graph can captures the essential aspects of the data and abstracts away the noisy, irrelevant parts. Modelling the interactions between entities as graphs has enabled d to understand the various network systems in a systematic manner .
+
+
+
 3.3 Social Influence Analysis 
 Social network influence pertains to the ability of a user to change the feelings, attitudes, or
 behaviors of other users in a network.
