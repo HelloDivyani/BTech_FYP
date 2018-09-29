@@ -185,3 +185,9 @@ services to customers. A good recommendation engine should correlate a lot of da
 interests shown by clients.
 Being focused on entities and relations between them, a Neo4j database can easily handle recommendations,
 significantly outperforming other relational and non-relational databases.
+
+Privacy and risk compliance
+
+Neo4j facilitates personal data storage and management: it allows you to track where private information is stored and 
+which systems, applications, and users access it. The graph data model helps visualize personal data and allows for data 
+analysis and pattern detection. Neo4j also comes in handy for financial risk reporting and compliance.
