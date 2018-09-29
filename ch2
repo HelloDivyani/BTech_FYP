@@ -220,6 +220,7 @@ data center and IT assets to help with troubleshooting, impact analysis and capa
 
 
 3.1 Study of Social Network Using Neo4j 
+
 Social networking is the use of internet-based social media programs to make connections with friends, 
 family, classmates, customers and clients. Social networking can occur for social purposes, business purposes or
 both through sites such as Facebook, Twitter, LinkedIn etc. Social networking is also a significant target area for
@@ -307,7 +308,7 @@ Difficulties in social influence analysis-
 6. Human intervention is needed to justify those results even after achieving results.
 
 
-Categories of Influence Analysis  :
+3.4. Categories of Influence Analysis  :
 
 1.1  User Based Analysis 
 
@@ -328,9 +329,29 @@ he is friend or not known as spammers.
 
 1.2  Link Based Analysis
 
+Social networking sites can be formulated as graphs, where each vertex reflects as user and edges reflects as relationships 
+between many users. Social networking sites are active networks which changes dynamically with time,
+incoming new vertexes and edges are regularly combined with existing graphs.
+To explore relation based structural analysis which mainly based on link prediction, influence analysis, community discovery 
+using correlation links, social tie prediction as well as tie strength prediction, etc. 
+Link prediction used to predict the probable forthcoming connection between two vertexes. 
+
+1.3  Content Based Analysis
+
+Social media and networking sites contains textual data in the form of messages, opinions, multimedia data such as images,
+videos, locations etc. Almost every content analysis such as data analysis, text analysis, and multimedia analysis 
+can be translated to social media analytics.
+In general, content analysis can be define as process of summarizing, quantitative analysis of messages or 
+text that relies on the scientific method includes attention to objectivity,
+inter-subjectivity, apriori design, reliability, validity, generalizability, replicability, and hypothesis testing.
 
 
-APPLICATIONS OF  SOCIAL INFLUENCER
+
+
+
+
+
+3.5 APPLICATIONS OF  SOCIAL INFLUENCER
 
 //image of application of influencer
 
@@ -380,3 +401,6 @@ and activities
 Rumors cause significant social damage. Rumors have received considerable research attention
 in the literature on OSNs, in which recent studies have demonstrated their rapid spread in the
 OSN context
+
+
+3.6 Influential Analysis on Twitter  :
