@@ -102,3 +102,21 @@ A NoSQL database, on the other hand, has dynamic schema for unstructured data, a
     The syntax can vary from database to database, and
     You can add fields as you go.
 
+
+2.1 What is Neo4j?
+
+Neo4j is an open-source, NoSQL, native graph database that provides an ACID-compliant transactional backend for your applications.
+Initial development began in 2003, but it has been publicly available since 2007. 
+
+Some of the following particular features make Neo4j very popular among developers, architects, and DBAs:
+
+    #Cypher, a declarative query language similar to SQL, but optimized for graphs.
+           Now used by other databases like SAP HANA Graph and Redis graph via the openCypher project.
+     #Constant time traversals in big graphs for both depth and breadth due to efficient representation of nodes and relationships.
+              Enables scale-up to billions of nodes on moderate hardware.
+    
+    #Flexible property graph schema that can adapt over time, making it possible to materialize and add new relationships later to shortcut and speed up the domain data when the business needs change.
+    
+    # Drivers for popular programming languages, including Java, JavaScript, .NET, Python, and many more.
+
+
