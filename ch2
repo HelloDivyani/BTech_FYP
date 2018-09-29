@@ -171,4 +171,9 @@ RETURN p.name
  but will also degrade in performance as the dataset grows.
 
 2.5 Common  Use Case  : 
-Social Networks – People and the relationships between them are perfectly suited to graph databases.
+Social Networks – Social networks
+
+Social networks are about connections between people, so basically they have graph structures. 
+Needless to say, graph databases like Neo4j are perfectly tailored to social networks. 
+They speed up the development of social network applications, enhance an app’s overall performance,
+and allow you to better understand your data.
