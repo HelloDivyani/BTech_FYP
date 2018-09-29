@@ -172,6 +172,7 @@ RETURN p.name
 
 2.5 Common  Use Case  : 
 
+Social networks
 
 Social networks are about connections between people, so basically they have graph structures. 
 Needless to say, graph databases like Neo4j are perfectly tailored to social networks. 
@@ -197,3 +198,10 @@ Geo Routing – Imagine modeling the classic traveling salesman problem of tryin
 the shortest route.  The data model is a map of cities and the routes between them and is already a graph. 
 Applications like routing inventory, scheduling tours and geospatial analysis are more comprehensible by developers and business owners in Neo4j compared to a relational database.  
 Performance also goes from “minutes to milliseconds” without relying on extra lookups to indices during retrieval.
+
+Business Expansion
+
+To deliver the most pleasant customer experience, businesses need to analyze lots of data. 
+Graph databases help to unify master data, such as information about customers, products, suppliers, and logistics. 
+Neo4j allows you to organize master data and model it in a graph, revealing connections and relationships. 
+Neo4j can provide important insights so that you can make relevant business decisions.
