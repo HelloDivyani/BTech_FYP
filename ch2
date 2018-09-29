@@ -1,1 +1,3 @@
 A graph is an abstract data type typically used to model data that contains objects (referred to as nodes or vertices), and some sort of relationship between those objects (lines or edges).
+
+A graph database is essentially a collection of nodes and edges. Each node represents an entity (such as a person or business) and each edge represents a connection or relationship between two nodes. Every node in a graph database is defined by a unique identifier, a set of outgoing edges and/or incoming edges and a set of properties expressed as key/value pairs. Each edge is defined by a unique identifier, a starting-place and/or ending-place node and a set of properties.
