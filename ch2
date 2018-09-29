@@ -125,3 +125,13 @@ Some of the following particular features make Neo4j very popular among develope
 
 2.3 Property Graph Model  :
 
+THe key component of Graph Database are : 
+1. Nodes  - are the entities in the graph. They can hold any number of attributes (key-value pairs) called properties. Nodes can be tagged with labels, representing their different roles in your domain. 
+Node labels may also serve to attach metadata (such as index or constraint information) to certain nodes.
+
+2. Relationships  :  provide directed, named, semantically-relevant connections between two node entities (e.g. Employee WORKS_FOR Company). A relationship always has a direction, a type, a start node, and an end node. Like nodes, relationships can also have properties. In most cases, 
+relationships have quantitative properties, such as weights, costs, distances, ratings, time intervals, or strengths.
+
+// property -model image
+
+2.4 Cypher Execution : 
