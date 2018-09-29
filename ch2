@@ -5,6 +5,10 @@ A graph database is essentially a collection of nodes and edges.
 Each node represents an entity (such as a person or business) and each edge represents a connection or relationship between two nodes. 
 Every node in a graph database is defined by a unique identifier, a set of outgoing edges and/or incoming edges and a set of properties expressed as key/value pairs.
 Each edge is defined by a unique identifier, a starting-place and/or ending-place node and a set of properties.
+
+These properties correspond to the columns in a relational database.
+Edges are use to describe the relationships between the objects contained in the database, 
+and in most they can be compared to the foreign key column of a row in a RDBMS.
 Graph database is a nosql database structure.
 //graph database phtoto.
 
@@ -82,20 +86,21 @@ NoSQL databases are guaranteed to adhere to two of the CAP properties. Such data
 // combine tables
 
 
-//comparision noql types photo
 
+The trouble to visualise the relationship between entities in a Relational Database is a 
+is overcomed with the help of graphical representation of graph databases.
+The most modern Graph Databases also offer advantages in performance, since they use NoSQL based storage mechanisms. 
+In this way, these databases became scalable and can be distributed to several processing cores in the cloud.
+The most popular Graph Databases with this kind of approach are Neo4J, OrientDB and TitanDB.
 
-These properties correspond to the columns in a relational database.
-Edges are use to describe the relationships between the objects contained in the database, 
-and in most they can be compared to the foreign key column of a row in a RDBMS.
-
-1.4 TYpes of GRaph Databases  :
 
 
 2.1 What is Neo4j?
 
-Neo4j is an open-source, NoSQL, native graph database that provides an ACID-compliant transactional backend for your applications.
-Initial development began in 2003, but it has been publicly available since 2007. 
+Neo4J is the first and most popular native Graph Database according to DB Engines website
+Neo4j is an open-source implemented in Java ,it has its own query language called Cypher and  provides an ACID-compliant transactional backend for applications.
+In native graph storage data is stored as graph on disk, the unit is vertex and edge. 
+Initial development of Neo4j began in 2003, but it has been publicly available since 2007. 
 
 Some of the following particular features make Neo4j very popular among developers, architects, and DBAs:
 
