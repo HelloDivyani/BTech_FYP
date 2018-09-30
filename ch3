@@ -5,9 +5,7 @@
 
 //What 
 
-3.2 Exploration of Steps :
-
- Fetching Twitter Data  and Integrating Neo4j with Frontend Technology 
+3.2 Fetching Twitter Data  and Integrating Neo4j with Frontend Technology 
          
          Features of twitter are-
           1.A Twitter user's activity data (tweets, followers, etc) is all public by default
@@ -26,7 +24,10 @@
              We have  pulled the ten days recent tweets from your Twitter feed and hashtag of demonitization and Indian politics.
                     The pyhton script uses py2neo libraary , fetch the twitter data through 
                     tweepy and dump data in graph.db of neo4j. 
+                                        
                     //screen shot
           
 
+3.3 Summary 
 
+We have twitter data integrated with neo4j for influentical analysis.We are able to integrate neo4j to our frontend.
