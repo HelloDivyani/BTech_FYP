@@ -1,9 +1,6 @@
 // Chapter 3
 
-//Introduction Paragraph
-//Why
-
-//What 
+Our objective is to find influential node in twitter network in particular domain.
 
 3.2 Fetching Twitter Data  and Integrating Neo4j with Frontend Technology 
          
@@ -28,6 +25,8 @@
                     //screen shot
           
 
-3.3 Summary 
+3.3 Future Work 
 
 We have twitter data integrated with neo4j for influentical analysis.We are able to integrate neo4j to our frontend.
+Our plan is to analyse features of twitter data(followers,mentions,hastags,likes,following,tweets,retweets) ,
+apply evaluation metrics and use efficient algorithm  to find influential node. 
