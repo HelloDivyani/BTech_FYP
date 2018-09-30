@@ -1,4 +1,14 @@
 #Introduction 
 // Paragraph
 
+1.1 Motivation 
 
+1.2 Objective
+
+
+
+1.4 Organisation of Report
+This report is organizes as follows :
+chapter 1 : 
+Introduces
+In addition, this chapter overview various available approaches to overcome those challenges and discusses the problem of finding influential nodes from a given social network. Chapter 2 gave detailed survey of approaches and techniques for social network analysis, ranking nodes and influence analysis. Chapter 3 mainly focused on proposed approach which includes two algorithm i.e. WEFFR and WEFFRPR for analyzing influence of nodes in evolving social network data. Chapter 4 demonstrates various experimental analysis and performance comparison of proposed algorithms with traditional Page Rank and Betweenness centrality approach. Chapter 5 concludes the contributions of proposed work and highlighted several possible directions for future research.
