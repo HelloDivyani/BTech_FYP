@@ -28,3 +28,11 @@ Step 1 :  Fetching Twitter Data
           
 Step 2 : Querying the data
 
+
+MATCH (p:User)-[s:SENT]->(tweet:Message)-[retweet:FORWARD]->(tweet1:Message)
+WITH p, COUNT(DISTINCT tweet) AS Retweets
+MATCH  (p:User)-[s2:SENT]->(tweet2:Message)
+WITH p, COUNT(DISTINCT tweet2) AS total,Retweets
+RETURN p.id AS Username,total,Retweets,(total-Retweets)*1.0/total
+
+
