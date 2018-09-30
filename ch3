@@ -8,7 +8,10 @@
 3.1 Exploration of Steps :
 
 Step 1 :  Fetching Twitter Data
-
+          Features of twitter are-
+          1.A Twitter user's activity data (tweets, followers, etc) is all public by default
+          2.Twitter's API allowed us to automatically download up to 20,000 data points per hour
+          3.Twitter uses auto-incrementing ID numbers (1,2,3,4…) for both users and tweets
 
 Step 2 : 
 
