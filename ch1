@@ -9,16 +9,14 @@ pplications. One such data analysis technique is Influence Analysis.
 Influence Analysis is a metric to quantify the influence that certain social network users (influencers) have over other social network users because of their knowledge and reputation on a certain topic. This technique requires the analysis of links between users which can be easily performed using Neo4j Graph Database. Neo4j enables us to treat relationships between data as equally important as the data itself and study the connection between users. It enables users to efficiently traverse the graph structure and provides user friendly visualization of the result.    
 
 1.1 Motivation
-
+When Connected Data Matters Most. Today's most pressing data challenges center around connections, not just discrete data. 
+To overcome these obstacles, you need a connected data technology – a graph database. 
 
 Graph Database gives us ability to handle relationship as a first class citizen of database.
 Its intuitive and expressive data model help us to visualize relationship in user-friendly manner than relational data model.
-.Its gives minutes to millisecond performance.
-Social networks (SNs), such as WeChat, Facebook, and Twitter, have
-emerged and tightly connected web users all over the worldin traversing the links in network.
-Social influence analysis  is becoming an impor-
-tant part of social networks.
-h databases 
+.Its gives minutes to millisecond performance in traversing the links in network.
+Graph database has wide application in social network analysis, which is a challenging area of study.
+Inluence analysis  is a core part of social network analysis which has wide application in society.
 
 1.2 Objective
 Our objective is to exploit graph database ,its application in social network .
