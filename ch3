@@ -5,10 +5,11 @@
 
 //What 
 
-3.1 Exploration of Steps :
+3.2 Exploration of Steps :
 
-Step 1 :  Fetching Twitter Data
-          Features of twitter are-
+ Fetching Twitter Data  and Integrating Neo4j with Frontend Technology 
+         
+         Features of twitter are-
           1.A Twitter user's activity data (tweets, followers, etc) is all public by default
           2.Twitter's API allowed us to automatically download up to 20,000 data points per hour
           3.Twitter uses auto-incrementing ID numbers (1,2,3,4…) for both users and tweets
@@ -17,8 +18,9 @@ Step 1 :  Fetching Twitter Data
           last twenty minutes, or pull a certain user’s non-retweeted tweets.
           
           Tools Overview- Python 2.7, Neo4j community 3.2.9,
-                             python library- py2neo (toolkit for working with neo4j and python)
-                                       tweepy ( to connect to Twitter’s API) 
+                             python library-  py2neo (toolkit for working with neo4j and python)
+                                              tweepy ( to connect to Twitter’s API) 
+                             Python Framework - flask(to create web application)
                                        
           Twitter timeline data fetch
              We have  pulled the ten days recent tweets from your Twitter feed and hashtag of demonitization and Indian politics.
@@ -26,13 +28,5 @@ Step 1 :  Fetching Twitter Data
                     tweepy and dump data in graph.db of neo4j. 
                     //screen shot
           
-Step 2 : Querying the data
-
-
-MATCH (p:User)-[s:SENT]->(tweet:Message)-[retweet:FORWARD]->(tweet1:Message)
-WITH p, COUNT(DISTINCT tweet) AS Retweets
-MATCH  (p:User)-[s2:SENT]->(tweet2:Message)
-WITH p, COUNT(DISTINCT tweet2) AS total,Retweets
-RETURN p.id AS Username,total,Retweets,(total-Retweets)*1.0/total
 
 
