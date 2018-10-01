@@ -8,12 +8,9 @@ influential nodes in twitter social network based on particular domain.
 
 
 1.4
-Organisation
-This report is organized as follows : chapter 1 : Provides an overview of graph
-database,social network data and its analysis ,also introduces influence analy-
-sis concept.It provides motivation and objective to our project. Chapter 2: It
-provides detail information of graph databse,its importance,CAP Theorem.It
-introduces Neo4j its importance and application. It focuses on social network
-,its applications and gives detailed survey of approaches and techniques for
-influentical analysis in social twitter network. Chapter 3: Describes our work
+Report Organisation
+This report is organized as - 
+Chapter 2 : It focuses on social network, its applications and gives detailed survey of approaches and techniques for
+influentical analysis in social twitter network. It provides detail information of graph database,its importance in social network analysis. It
+introduces Neo4j its importance and application. Chapter 3 : Describes our work
 in the project and provides overview of the future plan.
