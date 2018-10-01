@@ -1,2 +1,4 @@
 Let A be the adjacency matrix of a graph, such that
 aij = 1 if node vi is connected to vj and aij = 0 if not.
+
+Then we define the eigenvector centrality of node v k as
