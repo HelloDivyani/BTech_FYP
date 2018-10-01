@@ -356,3 +356,17 @@ Format-
 { street: “B-25, City:”Noida”, State:”UP”, Pincode:”201301”}}
 • Column-based Store - Each storage block contains data from only one
 column. Example- HBase, Cassandra.
+// image
+
+• Graph-based - Graph representation of relationships, mostly used by so-
+cial networks. Example- Neo4J.
+//image
+
+///table of rdbms and graph db
+The trouble to visualise the relationship between entities in a Relational
+Database is a is overcomed with the help of graphical representation of graph
+databases. The most modern Graph Databases also offer advantages in per-
+formance, since they use NoSQL based storage mechanisms. In this way,
+these databases became scalable and can be distributed to several process-
+ing cores in the cloud.The most popular Graph Databases with this kind of
+approach are Neo4J, OrientDB and TitanDB.
