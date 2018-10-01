@@ -385,6 +385,11 @@ cial networks. Example- Neo4J.
 //image
 
 ///table of rdbms and graph db
+
+Below table shows comparison
+
+
+
 The trouble to visualise the relationship between entities in a Relational
 Database is a is overcomed with the help of graphical representation of graph
 databases. The most modern Graph Databases also offer advantages in per-
