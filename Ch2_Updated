@@ -56,6 +56,7 @@ tivities, events, and interests with people in their network, such as
 Facebook.
 
 Social Network Data(SND)
+
 Social Network Data is evolutionary which comes with characteristic such as
 data are unstructured which comes in format like plain text, RDF, JSON,
 makes it difficult for users to index or load such data in a database, also they
@@ -66,8 +67,13 @@ can captures the essential aspects of the data and abstracts away the noisy,
 irrelevant parts. Modelling the interactions between entities as graphs has
 enabled to understand the various network systems in a systematic manner.
 
-// need to write about heterogenous
+
+
 // image of heterogenous
+
+Heterogenous Data : distinguishes different types of  objects  and  links  in  the  networks. The heterogeneous information 
+contains  richer  structure  and  semantic  information.It is classified into features and applications.
+
 
 Social Influence Analysis
 Social network influence pertains to the ability of a user to change the feelings,
