@@ -220,9 +220,46 @@ ally, centrality measures how central an individual is positioned in a social
 network. The commonly used tools are graph theory and network analysis.
 
 Degree centrality
+Intuitive Definition: The node with the most
+connections is the most important.
 Degree centrality is defined by counting the number of links incident upon
 a node, namely, the number of edges that a node possesses. For a directed
 network, we usually use to metrics for degree centrality: in-degree, which is
 a count of the number of edges directed to the node, and out-degree, which
 is the number of edges that the node directs to others.
-Mathematical Definition:
+Mathematical Definition is given in equation(1):
+//image 
+
+Closeness centrality
+Intuitive Definition: The most important node is the one
+that is the most independent.
+Closeness centrality is defined as the average distance from one vertex
+to the other vertices in a network. In influence analysis, we can treat it a
+metric of efficiency of each node in terms of spreading information in the
+network. The larger the closeness centrality of a node, the better positioned
+the node is in the social network.
+
+Mathematical Definition is given in equation(2):
+// image
+
+Betweenness centrality
+Intuitive Definition: The node with the most strategic location is the most
+important.
+Betweenness centrality measures the times a node acts as a bridge
+along the shortest path of two other nodes. Under the assumption that item
+transfer follows the shortest paths, a node of a high betweenness centrality
+possesses a better influence through the network. The concept of betweenness
+centrality has a wide application in practice, such as biology, social networks,
+transport, and so on.
+
+Mathematical Definition is given in equation(3):
+// image
+
+Eigenvector centrality
+
+Intuitive Definition: The node that has the most information flowing through
+it is the most important.
+Eigenvector centrality is a measurement on influence of a given node in a network.
+Relative scores are assigned to all nodes in a
+network based on an assumption that connections to high-scoring nodes con-
+tribute more to the score of the node than connections to low-scoring nodes.
