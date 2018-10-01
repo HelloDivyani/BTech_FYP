@@ -2,23 +2,17 @@
 
 Overview 
 
-Online social networks (OSNs) are dynamic social interaction platforms for billions of users
-worldwide. Information and ideas are rapidly disseminated among these users through online
-social interactions. The online interactions among OSN users generate a huge volume of data
+Online Social Networks (OSNs) are dynamic social interaction platforms for billions of users
+world wide. Information and ideas are rapidly disseminated among these users through online
+social interactions. Social networking can occur for social purposes, business purposes or both through
+sites such as Facebook, Twitter, LinkedIn etc. 
+ With the rise of the Internet and technology, Online Social Networks (OSNs) turned into chal-
+lenging cases of study.
+The online interactions among OSN users generate a huge volume of data
 that provides the opportunity to study human behavioral patterns. An
 in-depth investigation of OSNs is important to enhance the understanding of the relationships
 among people and to help address several issues regarding society.
-
-Study of Social Network
-
-Social networking is the use of internet-based social media programs to make
-connections with friends, family, classmates, customers and clients. Social
-networking can occur for social purposes, business purposes or both through
-sites such as Facebook, Twitter, LinkedIn etc. Social networking is also a
-significant target area for marketers seeking to engage users. With the rise of
-the Internet and technology, Online Social Networks (OSNs) turned into chal-
-lenging cases of study, on which big data content and complex interpersonal
-ties among actors converge. A social network can be represented by a graph,
+ A social network can be represented by a graph,
 whose nodes can represent the users, and the edges the interpersonal ties
 among them. By analyzing and mining social networks, we can gather infor-
 mation on the comments people make with respect to a particular product.
