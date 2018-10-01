@@ -27,6 +27,8 @@ Objectives
 
 Our objective is to exploit graph database to find 
 influential nodes in twitter social network based on particular domain.
+We aim to visulaize the influential node and compare result obtained by applying
+various evaluation metrics on twitter graph data stored in Neo4j.
 
 
 1.4
