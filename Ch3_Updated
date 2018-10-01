@@ -19,7 +19,7 @@ points per hour.
 • Twitter uses auto-incrementing ID numbers (1,2,3,4. . . ) for both users
 and tweets.
 
-Twitter’s Streaming API allows you to do complex queries like pulling every tweet
+Twitter’s Streaming API  - allows you to do complex queries like pulling every tweet
 about a certain topic within the last twenty minutes, or pull a certain user’s
 non-retweeted tweets.
 
@@ -31,17 +31,16 @@ python library-
 Python Framework - flask(to create web application)
 
 Twitter provides two types of API to access their data:
-  1.RESTful API : Used to get data about existing data objects like statuss "tweets",user,etc
-  2.Streaming API : Used to get live statuses "tweets" as they are sent
+  1.RESTful API : Used to get data about existing data objects like statuss "tweets", user, etc.
+  2.Streaming API : Used to get live statuses "tweets" as they are sent.
   
  Reason to use streaming API:
-  1. Capture large amount of data because RESTful API has limited access to older data
+  1. Capture large amount of data because RESTful API has limited access to older data.
   2. Real-time analysis like monitoring social discussion about a live event
 
 
 Twitter Timeline Data Fetch
-Using Twitter Streaming API 
-Extracted ten days recent tweets from your Twitter feed and hash-
+Using Twitter Streaming AP we extracted ten days recent tweets from your Twitter feed containing hash-
 tag of demonitization and Indian politics. The python script uses py2neo
 library, fetch the twitter data through tweepy and dump data in graph.db
 of neo4j.
