@@ -19,9 +19,6 @@ self and study the connection between users. It enables users to efficiently
 traverse the graph structure and provides user friendly visualization of the
 result.
 
-
-
-
 1.3
 Objectives
 
@@ -34,7 +31,7 @@ various evaluation metrics on twitter graph data stored in Neo4j.
 1.4
 Report Organisation
 This report is organized as - 
-Chapter 2 : It focuses on social network, its applications and gives detailed survey of approaches and techniques for
+Chapter 2 focuses on social network, its applications and gives detailed survey of approaches and techniques for
 influentical analysis in social twitter network. It provides detail information of graph database,its importance in social network analysis. It
-introduces Neo4j its importance and application. Chapter 3 : Describes our work
+introduces Neo4j its importance and application. And finally Chapter 3 describes our work
 in the project and provides overview of the future plan.
