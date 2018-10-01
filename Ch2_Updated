@@ -263,3 +263,10 @@ Eigenvector centrality is a measurement on influence of a given node in a networ
 Relative scores are assigned to all nodes in a
 network based on an assumption that connections to high-scoring nodes con-
 tribute more to the score of the node than connections to low-scoring nodes.
+
+Consider the example :
+//images
+
+
+//image of eigen vector
+
