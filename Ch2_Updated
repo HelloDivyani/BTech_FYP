@@ -2,15 +2,12 @@
 
 Overview 
 
-Graph Database is a system that stores data in a graph structure and al-
-lows the execution of more semantic queries, directly retrieving related data.
-This type of database not only improves the representation of relationships,
-but also lets us use more elaborated data analysis techniques, such as com-
-munity detection, pattern recognition and centrality measures. Unlike other
-databases, relationships take first priority in graph databases. This means
-your application does not have to infer data connections using things like
-foreign keys or out-of-band processing, such as MapReduce.
-
+Online social networks (OSNs) are dynamic social interaction platforms for billions of users
+worldwide. Information and ideas are rapidly disseminated among these users through online
+social interactions. The online interactions among OSN users generate a huge volume of data
+that provides the opportunity to study human behavioral patterns. An
+in-depth investigation of OSNs is important to enhance the understanding of the relationships
+among people and to help address several issues regarding society.
 
 Study of Social Network
 
@@ -30,7 +27,7 @@ and advertising campaigns.
 
 
 
-Classification based on Social Network
+Classification based on  Social Network
 Topology-based social networks 
 
 • Online Social Networks 
@@ -80,8 +77,8 @@ enabled to understand the various network systems in a systematic manner.
 
 // image of heterogenous
 
-Heterogenous Data : distinguishes different types of  objects  and  links  in  the  networks. The heterogeneous information 
-contains  richer  structure  and  semantic  information.It is classified into features and applications.
+Heterogenous Data : distinguishes different types of objects and links in the network. The heterogeneous information 
+contains richer structure and semantic information.It is classified based on features and applications.
 
 
 Social Influence Analysis
@@ -286,7 +283,17 @@ Consider the example :
 //image of eigen vector
 
 Exploring technology for SNA
-// we will write paragraph later
+
+Graph Database is a system that stores data in a graph structure and al-
+lows the execution of more semantic queries, directly retrieving related data.
+This type of database not only improves the representation of relationships,
+but also lets us use more elaborated data analysis techniques, such as com-
+munity detection, pattern recognition and centrality measures. Unlike other
+databases, relationships take first priority in graph databases. This means
+your application does not have to infer data connections using things like
+foreign keys or out-of-band processing, such as MapReduce.
+
+
 
 Graph Database
 
