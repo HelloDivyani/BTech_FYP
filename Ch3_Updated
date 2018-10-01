@@ -11,7 +11,7 @@ based on particular domain.
 
 3.1 Fetching Twitter Data and Integrating Neo4j with Frontend Technology
 
-Features of twitter data are-
+Speciality of twitter data are-
 • A Twitter user’s activity data (tweets, followers, etc) is all public by
 default.
 • Twitter’s API allowed us to automatically download up to 20,000 data
@@ -23,5 +23,28 @@ Twitter’s Streaming API allows you to do complex queries like pulling every tw
 about a certain topic within the last twenty minutes, or pull a certain user’s
 non-retweeted tweets.
 
+Tools Used : 
+Python 2.7, Neo4j community 3.2.9.
+python library-
+• py2neo (toolkit for working with neo4j and python)
+• tweepy ( to connect to Twitter’s API)
+Python Framework - flask(to create web application)
+
+
+Twitter Timeline Data Fetch
+Using Twitter Streaming API 
+We have pulled the ten days recent tweets from your Twitter feed and hash-
+tag of demonitization and Indian politics. The pyhton script uses py2neo
+libraary , fetch the twitter data through tweepy and dump data in graph.db
+of neo4j.
+
+//image of twitter data on neo4j
+
+
+3.2 Future Work
+
+Our plan is to analyse features of twitter data (followers, mentions, hastags, likes, following, tweets, retweets), apply 
+evaluation metrics and use efficient algorithm to find influential node.Also,compare the results obtained and provide 
+user-friendly visualization using Neo4j.
 
 
