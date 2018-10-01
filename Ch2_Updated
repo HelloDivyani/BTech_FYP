@@ -2,6 +2,15 @@
 
 Overview 
 
+Graph Database is a system that stores data in a graph structure and al-
+lows the execution of more semantic queries, directly retrieving related data.
+This type of database not only improves the representation of relationships,
+but also lets us use more elaborated data analysis techniques, such as com-
+munity detection, pattern recognition and centrality measures. Unlike other
+databases, relationships take first priority in graph databases. This means
+your application does not have to infer data connections using things like
+foreign keys or out-of-band processing, such as MapReduce.
+
 
 Study of Social Network
 
@@ -516,3 +525,35 @@ and IT infrastructure require a configuration management database
 offer. Using Neo4j, you can correlate your network, data center and
 IT assets to help with troubleshooting, impact analysis and capacity
 or outage planning.
+
+
+2.16 Influential Analysis on Twitter
+2.16.1 Twitter Application
+Nowadays, Twitter is one of the main online social networking services on
+the world. It is a microblog service where users can send and read short
+140-character messages called tweets . Tweets may include plain text, URL
+pages, images, mentions to other users (preceded by the symbol “@”) and
+hashtags , which are words that one decide to highlight by placing the symbol
+“# ” in front of them. A trending topic is a term (one or more words) that
+in some moment appears in a huge amount of tweets of some place. These
+“places” and “moments” are known due to additional metadata contained in
+each tweet, which are related with geolocation, time and broadcaster account
+information, etc. Many times, trending topics are written as hashtags.
+
+//twitter image
+
+In Twitter there are four types of public relationships: user-to-user, user-
+to-tweet, tweet-to-tweet and tweet-to-user. Both the user-to-tweet and the
+tweet-to-user relationships are symmetric. In Twitter, when a user A is fol-
+lowing another user B , we say that A is a follower of B , and B is a followee
+of A . We can also reply a tweet of another user or, in other words, reply to
+another user through one of his tweets.Therefore, we can consider that the
+reply action belongs to the four kinds of relationships. Two very powerful
+actions are sharing, or retweet , the tweet of another user, and marking a
+tweet as favorite or like . Retweets and likes also involve an implicit interac-
+tion between the user’s action and the author of the original tweet.
+As any social network, Twitter can be represented by a digraph G = (V,E),
+where V is the set of nodes and E is the set of directed edges that represent
+how the nodes are related.
+
+// image of flow chart of twitter
