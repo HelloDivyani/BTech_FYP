@@ -393,7 +393,7 @@ speed up the domain data when the business needs change.
 • Drivers for popular programming languages, including Java, JavaScript,
 .NET, Python, and many more.
 
-Need for Neo4j
+Advantages of Neo4j-
 • Neo4j’s First Mover Advantage is Connecting Everyone to Graphs
 • Biggest and Most Active Graph Community .
 • Highly Performant Read and Write Scalability, Without Compromise.
@@ -502,7 +502,7 @@ out relying on extra lookups to indices during retrieval.
 businesses need to analyze lots of data. Graph databases help to unify
 master data, such as information about customers, products, suppliers,
 and logistics. Neo4j allows you to organize master data and model it
-15in a graph, revealing connections and relationships. Neo4j can provide
+in a graph, revealing connections and relationships. Neo4j can provide
 important insights so that you can make relevant business decisions.
 • Network and IT operation : The size and complexity of your network
 and IT infrastructure require a configuration management database
