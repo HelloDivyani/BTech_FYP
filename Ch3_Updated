@@ -1,1 +1,27 @@
+//Chapter 3
+Proposed Work 
+
+3.1 Flow of Goals
+
+Flowchart explains the sequences of goals to be achieved to fulfil the objective of finding influential nodes from twitter data 
+based on particular domain.
+
+
+// Flowchart of events
+
+3.1 Fetching Twitter Data and Integrating Neo4j with Frontend Technology
+
+Features of twitter data are-
+• A Twitter user’s activity data (tweets, followers, etc) is all public by
+default.
+• Twitter’s API allowed us to automatically download up to 20,000 data
+points per hour.
+• Twitter uses auto-incrementing ID numbers (1,2,3,4. . . ) for both users
+and tweets.
+
+Twitter’s Streaming API allows you to do complex queries like pulling every tweet
+about a certain topic within the last twenty minutes, or pull a certain user’s
+non-retweeted tweets.
+
+
 
