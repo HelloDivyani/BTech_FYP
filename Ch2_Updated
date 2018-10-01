@@ -270,3 +270,89 @@ Consider the example :
 
 //image of eigen vector
 
+Exploring technology for SNA
+// we will write paragraph later
+
+Graph Database
+
+A graph is an abstract data type typically used to model data that con-
+tains objects (referred to as nodes or vertices), and some sort of relationship
+between those objects (lines or edges).
+//image of graph
+
+A graph database is essentially a collection of nodes and edges. Each node
+represents an entity (such as a person or business) and each edge represents
+a connection or relationship between two nodes. Every node in a graph
+database is defined by a unique identifier, a set of outgoing edges and/or
+incoming edges and a set of properties expressed as key/value pairs. Each
+edge is defined by a unique identifier, a starting-place and/or ending-place
+node and a set of properties. These properties correspond to the columns in
+a relational database. Edges are use to describe the relationships between
+the objects contained in the database, and in most they can be compared to
+the foreign key column of a row in a RDBMS.
+
+Need of Graph Datbases
+We live in a connected world! There are no isolated pieces of information, but
+rich, connected domains all around us. Most of the data exists in the form
+of the relationship between different objects and more often,the relationship
+between the data is more valuable than the data itself. Only a database
+that natively embraces relationships is able to store, process, and query con-
+nections efficiently. While other databases compute relationships at query
+time through expensive JOIN operations, a graph database stores connec-
+tions alongside the data in the model. Accessing nodes and relationships in
+a native graph database is an efficient, constant-time operation and allows
+you to quickly traverse millions of connections per second per core. Inde-
+pendent of the total size of your dataset, graph databases excel at managing
+highly connected data and complex queries. With only a pattern and a set of
+starting points, graph databases explore the neighboring data around those
+initial starting points,collecting and aggregating information from millions
+of nodes and relationships,and leaving any data outside the search perime-
+ter untouched. Graph databases, by design, allow simple and fast retrieval
+of complex hierarchical structures that are difficult to model in relational
+systems.
+
+Graph Database as NoSQL Structure
+
+NoSQL means Not Only SQL, is a whole new way of thinking about a
+database. It is an approach to non-relational data management and database
+design that’s useful for distributed data stores where very large scale of un-
+structured data storing needs. It encompasses a wide range of technologies
+and architectures.
+
+Brewer’s CAP theorem
+CAP theorem Relates to NoSQL. CAP theorem tries to demonstrate the
+properties expected by a NoSQL database. Most of the databases are de-
+signed to achieve two of these properties at the cost of another property.
+• C - Consistency When performing an operation you always have to receive
+the same information, regardless the node that process the order. It
+means that no matter which node that forms our Database receives
+an order, everyone must respond to the operation equally and must be
+transparent to us who effected it. All clients see the same version of
+data.
+• A - Availability The system provides answers for all requests it receives,
+even if one or more nodes are down.
+• P - Partition tolerance The system still Works even though it has been
+divided by a network failure.
+
+Types of NoSQL Databases
+
+NoSQL databases are guaranteed to adhere to two of the CAP properties.
+Such databases are of several types.
+
+• Key-Value Store - Stores in the form of a hash table .Example- Riak,
+Amazon S3 (Dynamo), Redis.
+
+Format-
+Key
+“India”
+Value
+{“B-25, Sector-58, Noida, India – 201301”}
+• Document-based Store - Stores objects, mostly JSON, which is web friendly
+or supports ODM (Object Document Mappings). Example- CouchDB,
+MongoDB.
+
+Format-
+{ officeName:”Pillar Noida”,
+{ street: “B-25, City:”Noida”, State:”UP”, Pincode:”201301”}}
+• Column-based Store - Each storage block contains data from only one
+column. Example- HBase, Cassandra.
