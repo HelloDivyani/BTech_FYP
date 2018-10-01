@@ -66,6 +66,7 @@ can captures the essential aspects of the data and abstracts away the noisy,
 irrelevant parts. Modelling the interactions between entities as graphs has
 enabled to understand the various network systems in a systematic manner.
 
+// need to write about heterogenous
 // image of heterogenous
 
 Social Influence Analysis
@@ -210,3 +211,18 @@ and timely analysis of the hazards of current emergencies and activities.
 received considerable research attention in the literature on OSNs, in
 which recent studies have demonstrated their rapid spread in the OSN
 context.
+
+Evaluation metrics for social influence
+
+Centrality measures
+Centrality is an important concept in studying social networks. Conceptu-
+ally, centrality measures how central an individual is positioned in a social
+network. The commonly used tools are graph theory and network analysis.
+
+Degree centrality
+Degree centrality is defined by counting the number of links incident upon
+a node, namely, the number of edges that a node possesses. For a directed
+network, we usually use to metrics for degree centrality: in-degree, which is
+a count of the number of edges directed to the node, and out-degree, which
+is the number of edges that the node directs to others.
+Mathematical Definition:
