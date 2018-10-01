@@ -101,3 +101,62 @@ determine without having prior knowledge of influential domain and
 those results.
 • Human intervention is needed to justify those results even after achieving
 results.
+
+
+Categories of Influence Analysis
+
+User Based Analysis
+
+Users on social media are from various communities and background having
+different taste and choices, while active on social networking sites. Finding
+right user for specific analysis or recommendation can helps the organization
+to better understand their customers. User based analysis mainly divided
+into three categories-
+• Group of users or community where peoples are grouped based on similar
+interest.They are also related to each other based on some forehand
+knowing criteria’s like any other communities in the real world e.g.
+college group.
+• Classification of users based on different characteristics such as behavior,
+preferences, etc.
+• Group of spammers.
+As social networking sites do not give well-built authentication mechanisms,
+and it is quite easy to masquerade as a user and creep into a person’s network
+of trust whether he is friend or not known as spammers.
+
+
+Link Based Analysis
+
+Social networking sites can be formulated as graphs, where each vertex re-
+flects as user and edges reflects as relationships between many users. So-
+cial networking sites are active networks which changes dynamically with
+time, incoming new vertexes and edges are regularly combined with existing
+graphs. To explore relation based structural analysis which mainly based
+on link prediction, influence analysis, community discovery using correlation
+20links, social tie prediction as well as tie strength prediction, etc. Link pre-
+diction used to predict the probable forthcoming connection between two
+vertexes.
+
+
+Content Based Analysis
+
+Social media and networking sites contains textual data in the form of mes-
+sages, opinions, multimedia data such as images, videos, locations etc. Al-
+most every content analysis such as data analysis, text analysis, and mul-
+timedia analysis can be translated to social media analytics. In general,
+content analysis can be define as process of summarizing, quantitative analy-
+sis of messages or text that relies on the scientific method includes attention
+to objectivity,inter-subjectivity, apriori design, reliability, validity, generaliz-
+ability, replicability, and hypothesis testing.
+
+
+The influence analysis on social network can be perform on either entire
+network-
+• Global influence take considers overall action of the whole social network
+with the goal of finding the most influential users in an entire network. For
+example, consider a phenomenon that detects influencers users based on the
+criteria of most number of followers across the whole Twitter network(i.e.,
+global indegree).
+• Local influence take into account the actions of either a topic or group/community
+with the goal of finding the most influential user based on the criteria of
+member with most number of followers who belongs to particular topic or
+group/community(local indegree).
