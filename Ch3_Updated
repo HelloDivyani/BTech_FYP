@@ -50,8 +50,9 @@ of neo4j.
 
 3.2 Future Work
 
-Our plan is to analyse features of twitter data (followers, mentions, hastags, likes, following, tweets, retweets), apply 
-evaluation metrics and use efficient algorithm to find influential node.Also,compare the results obtained and provide 
+Our plan is to analyse features of twitter graph data (followers, mentions, hastags, likes, following, tweets, retweets) in
+terms of influential nodes using existing techniques such as centrality measures, page rank(Iterative Approach) and other 
+efficient algorithms.Also,compare the results obtained and provide 
 user-friendly visualization using Neo4j.
 
 
