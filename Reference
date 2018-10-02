@@ -6,3 +6,49 @@
    year      = 1980,
    pages     = "447-462",
 }
+
+
+@ARTICLE{Peng,Zhou,Cao,Yu,Niu,Jia,
+   author    = "Sancheng Peng, Yongmei Zhou, Lihong Cao, Shui Yu, Jianwei Niu, Weijia Jia",
+   title     = "Influence analysis in social networks: A survey",
+   journal   = "Journal of Network and Computer Applications",
+   volume    = 106,
+   year      = 2018,
+   pages     = "17-32",
+}
+
+@ARTICLE{MOHAMMED,VARATHAN,RAVANA,AHMED,KHAN,MUJTABA,
+   author    = "MOHAMMED ALI AL-GARADI, KASTURI DEWI VARATHAN, SRI DEVI RAVANA,
+EJAZ AHMED, GHULAM MUJTABA, 
+MUHAMMAD USMAN SHAHID KHAN, 
+SAMEE U. KHAN ",
+   title     = "Analysis of Online Social Network Connections for
+Identification of Influential Users: Survey and Open
+Research Issues",
+   journal   = "ACM Computing Surveys (CSUR)",
+   volume    = 51,
+   year      = 2018,
+   pages     = "37",
+}
+
+@ARTICLE{Peng,Zhou,Cao,Yu,Niu,Jia,
+   author    = "Fabián Riquelme, Pablo González-Cantergiani",
+   title     = "Measuring user influence on Twitter: A survey",
+   journal   = "Information Processing and Management",
+   volume    = 106,
+   year      = 2018,
+   pages     = "949-975",
+}
+
+
+@ARTICLE{Tidke,Mehta,Dhanani,
+   author    = "Bharat Tidke, Rupa Mehta, Jenish Dhanani",
+   title     = "SIRIF: Supervised influence ranking
+based on influential network",
+   journal   = "Journal of Intelligent & Fuzzy Systems",
+   volume    = 35,
+   year      = 2018,
+   pages     = "1225-1237",
+}
+
+
