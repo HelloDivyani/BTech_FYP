@@ -1,1 +1,11 @@
 Abstract
+With the rise of the Internet and technology, Online Social Networks (OSNs) turned into challenging cases of study. 
+Analyzing and mining social network enhances the understanding of the relationships among people
+and to help address several issues regarding society. One such analysis area is Influence Analysis.
+It requires the analysis of links between users
+which can be easily performed using Graph Database. Neo4j Graph Database enables
+us to treat relationships between data as equally important as the data it-
+self and study the connection between users. It provides user friendly visualization of the
+result.
+
+Keywords - OSN, Neo4j, SNA, Cypher.
